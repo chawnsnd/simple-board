@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const counterSchema = new Schema({
     _id: String,
-    seq_value: Number
+    seq: Number
 });
 
 module.exports = mongoose.model('counter', counterSchema);
